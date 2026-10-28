@@ -1,0 +1,30 @@
+# Blender automatic backups
+*.blend1
+*.blend2
+*.blend3
+*.blend@
+
+# Temporary files
+*.tmp
+*.temp
+*.autosave
+*~
+
+# Blender caches
+cache/
+cache_*/
+*.bphys
+*.vdb
+
+# Render outputs
+renders/*
+!renders/README.md
+
+# Final exports
+exports/*
+!exports/README.md
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
